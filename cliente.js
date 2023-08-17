@@ -12,7 +12,7 @@ socket.on('open', () => {
   });
 
   function sendMessage() {
-    rl.question('Digite uma mensagem ou exit para sair: \n', (message) => {
+    rl.question('', (message) => {
       if (message === 'exit') {
         socket.close();
         rl.close();
@@ -27,7 +27,7 @@ socket.on('open', () => {
   sendMessage();
 
   socket.on('message', (message) => {
-    console.log(`Cliente 2: ${message}`);
+    console.log(`${message}`);
   });
 });
 

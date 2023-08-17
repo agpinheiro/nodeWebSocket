@@ -15,8 +15,8 @@ Esta é uma aplicação simples de chat em tempo real usando WebSockets em Node.
     Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/agpinheiro/nodeWebSocket.git
+   cd nodeWebSocket
 
 ## Como Usar:
 

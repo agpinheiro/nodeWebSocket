@@ -2,6 +2,22 @@
 
 Esta é uma aplicação simples de chat em tempo real usando WebSockets em Node.js.
 
+## Funcionalidades
+    Os clientes podem se conectar ao servidor WebSocket.
+    Os clientes podem enviar e receber mensagens em tempo real.
+    As mensagens são encaminhadas para todos os outros clientes conectados.
+    Os nomes dos clientes são exibidos junto com suas mensagens.
+
+### Pré-requisitos
+
+- Node.js instalado
+
+    Clone este repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+
 ## Como Usar:
 
 1. **Instalação das dependências:**
@@ -13,6 +29,8 @@ Esta é uma aplicação simples de chat em tempo real usando WebSockets em Node.
    node server.js
 
 3. **Abrir terminais separados para cada cliente e iniciar os clientes:**
+
+    *obs: podem ser abertos N clientes*
 
    node client.js
 
